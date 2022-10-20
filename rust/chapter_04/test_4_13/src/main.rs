@@ -26,4 +26,9 @@ fn main() {
     let word = first_word_1(str);
     println!("{}",word);
     //println!("{}",word);
+    let mut str1 = String::from("hello world");
+    // error
+    //let word = first_word_1(str1);
+    let word = first_word_1(&str1[..]);
+    println!("{}",word);
 }
