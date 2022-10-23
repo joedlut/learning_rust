@@ -23,7 +23,7 @@ pub fn eat_at_restaurant(){
     meal.toast = String::from("wheat");
     println!("I'd like {} toast please",meal.toast);
     //error   seasonal_fruit  private field
-    //meal.seasonal_fruit = String::from("blueberries");
+   // meal.seasonal_fruit = String::from("blueberries");
     let order1 = back_of_house::Appetizer::Soup;
     let order2 = back_of_house::Appetizer::Salad;
     println!("{:?}",order1);
